@@ -1,0 +1,41 @@
+<!doctype html public "storage">
+<html>
+<meta charset=utf-8/>
+<title>My First React Router App</title>
+<style>
+ #app{
+     width:300px;
+     margin:50px auto;
+     background: skyblue;
+     border-radius: 5px;
+     border-shadow: 3px 3px 3px blue;
+     height:500px;
+     overflow: auto;
+ }
+ #vedioList{
+     perspective: 1500px;
+
+ }
+    .thumbnail{
+        transition:transform linear 2s;
+        transform-style:preserve-3d;
+    }
+    .thumbnail:hover{
+        transform: translateZ(5px);
+
+    }
+#commentBox{
+    height:422px;
+    overflow: auto;
+}
+ #compage{
+
+    }
+</style>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+    <body>
+      <div id="app"></div>
+      <script src="bundle.js"></script>
+    </body>
+
+</html>
